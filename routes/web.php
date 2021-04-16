@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+// namespace App\Http\Controllers\;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +13,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
     return view('login');
 });
+
+Route::post('/login', 'UsersController@login');
+Route::get('/', 'ProductController@index');
