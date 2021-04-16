@@ -1,6 +1,7 @@
-@extends('bootstrap');
+@extends('master')
+@section('content')
 <div class="container custom-login">
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
             <form action="/login" method="POST">
                 @csrf
@@ -20,5 +21,12 @@
             </form>
 
         </div>
-    </div>
+    </div> -->
 </div>
+<style>
+    .custom-login {
+        height: 800px;
+        padding-top: 200px;
+    }
+</style>
+@endsection
