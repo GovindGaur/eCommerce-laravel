@@ -28,6 +28,35 @@
     height: 500px;
     padding-top: 100px;
 }
+
+.slider-image {
+    height: 400px !important;
+}
+
+.custom-product {
+    height: 500px;
+}
+
+.slider-text {
+    background-color: sienna;
+}
+
+.trending-image {
+    height: 100px;
+}
+
+.trending-item {
+    float: left;
+    width: 20%;
+}
+
+.detail-img {
+    height: 200px;
+}
+
+.search-box {
+    width: 500px !important;
+}
 </style>
 
 </html>
