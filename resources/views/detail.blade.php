@@ -7,9 +7,9 @@
         </div>
         <div class="col-sm-6">
             <a href="/">Go Back Here</a>
-            <h2>{{$product['name']}}</h2>
+            <h2>{{$product['name']}}</h2>categery
             <h3>Price : {{$product['price']}}</h3>
-            <h4>Catergery : {{$product['catergery']}}</h4>
+            <h4>Categery : {{$product['categery']}}</h4>
             <h4>Description : {{$product['description']}}</h4>
             <br><br>
             <form action="/add_to_cart" method='POST'>
